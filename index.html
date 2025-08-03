@@ -2,94 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
-        body 
-        {
+        body {
             font-family: Arial, sans-serif;
             background-color: #f1eded;
             color: #333333;
             margin: 20px;
         }
 
-        h1, h2 
-        {
+        h1, h2 {
             color: #215ba7;
         }
 
-        img 
-        {
+        img {
             width: 150px;
             height: 150px;
-            border-radius: 50%;
-            display: block;
+            border-radius: 100%;
             margin-bottom: 15px;
-            border: 2px solid #DDD;
+            border: 2px;
         }
 
-        a 
-        {
+        a {
             color: #305a95;
             text-decoration: none;
         }
 
-        a:hover 
-        {
+        a:hover {
             text-decoration: underline;
         }
 
-        p, ul, ol 
-        {
+        p, ul, ol {
             color: #000000;
         }
 
-        ul, ol 
-        {
+        ul, ol {
             margin-left: 25px;
         }
 
-        section 
-        {
+        section {
             margin-bottom: 30px;
         }
 
+        nav {
+            margin-bottom: 30px;
+        }
 
+        nav a {
+            margin-right: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    
-    <h1>My Portfolio</h1>
+    <!-- Navi bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <!--Profile pic-->
+    <h1>My Portfolio</h1>
     <img src="image3.png" alt="Profile Pic">
 
-    <!--About me Section-->
-    <h2>About Me</h2>
-    <p>Hi, I’m a Computer Science student at FAST NUCES with a strong interest in coding, problem-solving, and design. I have experience in C/C++, Visual Basic, Assembly language, and a solid grasp of data structures and DBMS. I'm also familiar with Canva, Adobe Illustrator, and Photoshop. I enjoy exploring new technologies and actively contribute to both academic and extracurricular activities.</p>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m a Computer Science student at FAST NUCES with a strong interest in coding, problem-solving, and design. I have experience in C/C++, Visual Basic, Assembly language, and a solid grasp of data structures and DBMS. I'm also familiar with Canva, Adobe Illustrator, and Photoshop. I enjoy exploring new technologies and actively contribute to both academic and extracurricular activities.
+        </p>
+    </section>
 
-    <!--Skills Section-->
-    <h2>My Skills</h2>
-    <ul>
-        <li>C/C++</li>
-        <li>Java</li>
-        <li>Assembly Language</li>
-        <li>Html</li>
-    </ul>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>C/C++</li>
+            <li>Java</li>
+            <li>Assembly Language</li>
+            <li>HTML</li>
+        </ul>
+    </section>
 
-    <!--Projects Section-->
-    <h2>My Projects</h2>
-    <ol>
-        <li>Library Management System (Full Stack)</li>
-        <li>Basic Candy Crush game in C++</li>
-        <li>Falling Alphabets Game (Assembly language)</li>
-    </ol>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ol>
+            <li>Library Management System (Full Stack)</li>
+            <li>Basic Candy Crush game in C++</li>
+            <li>Falling Alphabets Game (Assembly language)</li>
+        </ol>
+    </section>
 
-    <!--Contact Section-->
-    <h2>Contact Section</h2>
-    <p>Email: <a href="mailto:zarahassan4556@gmail.com" target="_blank">zarahassan4556@gmail.com</a></p>
-    <p>Github: <a href="https://github.com/ZaraH45" target="_blank">Open Github</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/zara-hassan-049277235/" target="_blank">Open LinkedIn</a></p>
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Photography</li>
+            <li>Exploring Cybersecurity</li>
+            <li>Writing Tech Blogs at: <a href="https://byteofgrowth.blogspot.com/">byteofgrowth</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:zarahassan4556@gmail.com" target="_blank">zarahassan4556@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/ZaraH45" target="_blank">Open GitHub</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/zara-hassan-049277235/" target="_blank">Open LinkedIn</a></p>
+    </section>
 
 </body>
 </html>
